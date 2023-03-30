@@ -56,5 +56,5 @@ const MovieDetails = () => {
     </section>
   )
 }
-
+// adding comment for test purposes
 export default MovieDetails;
