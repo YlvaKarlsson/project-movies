@@ -45,7 +45,7 @@ const MovieDetails = () => {
             fill="black"
             fillRule="evenodd" />
         </svg>
-        <p className="back-to-list">Go back to list</p>
+        <p className="back-to-list">Back to list</p>
       </a>
       <img
         className="poster-img"

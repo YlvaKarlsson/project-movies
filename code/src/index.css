@@ -113,16 +113,16 @@ also have the .movie-details class. */
 }
 
 .back-to-list {
-  display: none;
+  display: flex;
+  text-decoration: none;
 }
 
 /* We want to show this text when hovering over the back-to-list-button but it doesn't work yet*/
-.back-to-list:hover {
+/*.back-to-list:hover {
   display: block;
   font-size: large;
   text-decoration: none;
-
-}
+} */
 
 .go-back-btn {
   font-size: large;
