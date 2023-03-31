@@ -27,7 +27,6 @@ export const App = () => {
     // main wrapper for the whole app
     <BrowserRouter>
       {/* wrapper for every component that needs to be linked to */}
-      {/* <Header /> */}
       <Routes>
         {/* path to a single component */}
         <Route path="/" element={<MovieList movieList={movieList} />} />
