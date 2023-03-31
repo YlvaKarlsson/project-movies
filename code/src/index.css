@@ -113,7 +113,10 @@ also have the .movie-details class. */
 }
 
 .icon-and-text {
-  flex-direction: row; /* moved the text to under the icon */
+  /*display: flex;
+  flex-direction: row;
+  align-items: center;*/
+  flex-direction: row; /* moved the text to under the icon*/
   justify-content: flex-start;
 }
 
@@ -210,6 +213,7 @@ a {
 
 .footer-text {
   text-align: center;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 668px) and (max-width: 1024px) {
